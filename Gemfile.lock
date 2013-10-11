@@ -1,18 +1,34 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    addressable (2.3.5)
     backports (3.3.5)
     ethon (0.6.1)
       ffi (>= 1.3.0)
       mime-types (~> 1.18)
+    excon (0.25.3)
     ffi (1.9.0)
+    heroku (3.0.0)
+      heroku-api (~> 0.3.7)
+      launchy (>= 0.3.2)
+      netrc (~> 0.7.7)
+      rest-client (~> 1.6.1)
+      rubyzip
+    heroku-api (0.3.15)
+      excon (~> 0.25.1)
+    launchy (2.3.0)
+      addressable (~> 2.3)
     mime-types (1.25)
     multi_json (1.8.1)
+    netrc (0.7.7)
     rack (1.5.2)
     rack-protection (1.5.0)
       rack
     rack-test (0.6.2)
       rack (>= 1.0)
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
+    rubyzip (1.0.0)
     sinatra (1.4.3)
       rack (~> 1.4)
       rack-protection (~> 1.4)
@@ -33,6 +49,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  heroku
   sinatra
   sinatra-contrib
   sqlite3
