@@ -1,0 +1,158 @@
+/* Book Review Style */
+
+@import url('http://fonts.googleapis.com/css?family=Kite+One');
+
+.list {
+  color: black;
+  opacity: .7;
+  font-size: 1.4em;
+  text-decoration: none;
+}
+
+.list:hover {
+  opacity: 1;
+  font-size: 1.6em;
+}
+
+#results {
+  height: 280px;
+
+}
+
+#review {
+
+}
+
+
+.container {
+	position: relative;
+    	height: 621px;
+      width: 1035px;
+}
+
+.container:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background: transparent url('Sherlock-Holmes.jpg') no-repeat;
+    background-size: 1035px 621px;
+
+   opacity: 0.3;
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+    font-family: 'Kite One', sans-serif;
+}​
+
+body {
+	text-align: center;
+}
+article {
+	/*margin: 0 10%;*/
+	text-align: center;
+}
+header  {
+	text-align: center;
+}
+ul > li {
+  display: block;
+  list-style: none;
+  padding: 0px 10px 0px 10px;
+  font-size: 1em;
+}
+
+footer > div> ul > li {
+	display: inline;
+      font-size: .9em;
+
+}
+
+button {
+	background: black;
+	width: 120px;
+	height: 30px;
+	font-size: 1em;
+	opacity: 0.6;
+	color: white;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+
+}
+button:hover {
+	opacity: 0.9;
+}
+
+hr {
+	text-align: center;
+}
+img[class="icon"] {
+   height: 20px;
+   width: 20px;
+   margin: 0 0px 0 0px;
+   -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+footer {
+      font-family: 'Kite One', sans-serif;
+      position: absolute;
+      margin-left: 425px;
+	text-align: center;
+	font-size: .9em;
+      float: clear;
+	opacity: 1;
+}
+
+input {
+  width: 250px;
+  heigh: 100px;
+  font-size: 1.1em;
+  text-align: center;
+  margin: 5px 0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+textarea {
+  font-size: 1.1em;
+  text-align: left;
+  margin: 5px 0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+
+}
+
+.label {
+	float: left;
+	width: 400px;
+	margin-left: 20px:;
+	text-align: right;
+      margin: 3px 10px;
+}
+.value {
+      float: left;
+	text-align: left;
+	width: 500px;
+	margin: 3px 10px;
+}
+
+#poster {
+  float: left;
+}
+
+#details {
+  font-size: 1.2em;
+}
+
+#footer {
+
+}
